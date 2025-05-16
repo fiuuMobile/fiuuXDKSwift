@@ -26,6 +26,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "PassKit",
         "printedName": "PassKit",
         "declKind": "Import",
@@ -252,6 +262,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : FiuuXDKSwift.FiuuXDKDelegate>",
             "sugared_genericSig": "<Self where Self : FiuuXDKSwift.FiuuXDKDelegate>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -536,6 +549,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Models\/Extension+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
       "kind": "StringLiteral",
       "offset": 534,
@@ -634,13 +654,6 @@
       "value": "\"signature\""
     },
     {
-      "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/Services\/APManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12341,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "BooleanLiteral",
       "offset": 447,
@@ -672,62 +685,62 @@
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
       "offset": 666,
-      "length": 3,
-      "value": "\"0\""
+      "length": 5,
+      "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "Dictionary",
-      "offset": 757,
+      "offset": 759,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10133,
+      "offset": 10017,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10184,
+      "offset": 10068,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10245,
+      "offset": 10129,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10311,
+      "offset": 10195,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10362,
+      "offset": 10246,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10420,
+      "offset": 10304,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10471,
+      "offset": 10355,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }
