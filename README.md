@@ -18,7 +18,7 @@ Fiuu Mobile XDK for iOS (Swift) is a lightweight SDK that enables seamless integ
 
 Add this line in Podfile
 
-```
+```ruby
 pod 'FiuuXDKSwift', :git => 'https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Swift.git'
 ```
 
@@ -28,6 +28,7 @@ Add this line to your Podfile:
 
 ```ruby
 pod 'FiuuXDKSwift'
+```
 
 # Apple Pay Implementation
 
@@ -38,7 +39,7 @@ pod 'FiuuXDKSwift'
 
 # Params needed for Apple Pay
 
-```
+```ruby
 "mp_channel": "ApplePay"
 "mp_express_mode": true // Optional
 "mp_allowed_channels": ["ApplePay"]
