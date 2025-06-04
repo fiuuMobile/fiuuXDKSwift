@@ -240,6 +240,13 @@
         "moduleName": "FiuuXDKSwift"
       },
       {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "FiuuXDKSwift"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FiuuXDK",
         "printedName": "FiuuXDK",
