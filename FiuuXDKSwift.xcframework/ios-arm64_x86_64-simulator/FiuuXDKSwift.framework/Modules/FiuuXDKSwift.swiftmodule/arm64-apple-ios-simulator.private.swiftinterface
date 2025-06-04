@@ -20,7 +20,7 @@ extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDeleg
 }
 @objc @_inheritsConvenienceInitializers public class FiuuXDK : ObjectiveC.NSObject {
   public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void, onFinishDeepLink: (() -> Swift.Void)? = nil)
-  public func startXDK(on window: UIKit.UIWindow, with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void, onFinishDeepLink: (() -> Swift.Void)? = nil)
+  public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
   public func startXDK(on window: UIKit.UIWindow, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
   @objc deinit
   @objc override dynamic public init()

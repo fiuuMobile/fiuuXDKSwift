@@ -356,7 +356,7 @@
           {
             "kind": "Function",
             "name": "startXDK",
-            "printedName": "startXDK(on:with:completion:onFinishDeepLink:)",
+            "printedName": "startXDK(on:with:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -365,9 +365,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIWindow",
-                "printedName": "UIKit.UIWindow",
-                "usr": "c:objc(cs)UIWindow"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -389,66 +389,15 @@
                 "usr": "s:SD"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([Swift.String : Any]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ]
-              },
-              {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "FiuuXDKWebviewDelegate",
+                "printedName": "any FiuuXDKSwift.FiuuXDKWebviewDelegate",
+                "usr": "s:12FiuuXDKSwift0A18XDKWebviewDelegateP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo8UIWindowC_SDySSypGyAKcyycSgtF",
-            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with10completion0E14FinishDeepLinkySo8UIWindowC_SDySSypGyAKcyycSgtF",
+            "usr": "s:12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
+            "mangledName": "$s12FiuuXDKSwift0A3XDKC05startC02on4with8delegateySo16UIViewControllerC_SDySSypGAA0A18XDKWebviewDelegate_ptF",
             "moduleName": "FiuuXDKSwift",
             "declAttributes": [
               "AccessControl"
@@ -965,49 +914,49 @@
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10110,
+      "offset": 10024,
       "length": 23,
       "value": "\"mpopenmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10161,
+      "offset": 10075,
       "length": 22,
       "value": "\"mpcloseallwindows:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10222,
+      "offset": 10136,
       "length": 43,
       "value": "\"mpclosepopupandrunscriptonmolpaywindow:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10288,
+      "offset": 10202,
       "length": 25,
       "value": "\"mptransactionresults:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10339,
+      "offset": 10253,
       "length": 23,
       "value": "\"mprunscriptonpopup:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10397,
+      "offset": 10311,
       "length": 26,
       "value": "\"mppinstructioncapture:\/\/\""
     },
     {
       "filePath": "\/Users\/mobileteam\/Documents\/Projects\/iOS Projects\/ios-swift\/FiuuXDKSwift\/FiuuXDKWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 10448,
+      "offset": 10362,
       "length": 20,
       "value": "\"mpclickapbutton:\/\/\""
     }
