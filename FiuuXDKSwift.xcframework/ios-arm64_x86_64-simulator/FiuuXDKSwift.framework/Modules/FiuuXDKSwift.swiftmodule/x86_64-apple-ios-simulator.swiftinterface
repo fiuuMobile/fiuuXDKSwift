@@ -21,10 +21,15 @@ extension FiuuXDKSwift.APManager : PassKit.PKPaymentAuthorizationControllerDeleg
 @objc @_inheritsConvenienceInitializers public class FiuuXDK : ObjectiveC.NSObject {
   public func startXDK(on viewController: UIKit.UIViewController, with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void, onFinishDeepLink: (() -> Swift.Void)? = nil)
   public func startXDK(on window: UIKit.UIWindow, with paymentDetails: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void, onFinishDeepLink: (() -> Swift.Void)? = nil)
+  public func startXDK(on window: UIKit.UIWindow, with paymentDetails: [Swift.String : Any], delegate: any FiuuXDKSwift.FiuuXDKWebviewDelegate)
   @objc deinit
   @objc override dynamic public init()
 }
-extension FiuuXDKSwift.FiuuXDK {
+extension FiuuXDKSwift.FiuuXDK : FiuuXDKSwift.FiuuXDKWebviewDelegate {
   public func didFinishDeepLink()
   public func transactionResult(with results: [Swift.String : Any])
+}
+public protocol FiuuXDKWebviewDelegate : AnyObject {
+  func didFinishDeepLink()
+  func transactionResult(with results: [Swift.String : Any])
 }
